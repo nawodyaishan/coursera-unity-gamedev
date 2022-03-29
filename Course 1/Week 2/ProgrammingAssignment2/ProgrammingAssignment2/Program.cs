@@ -1,14 +1,10 @@
 ﻿using System;
+using System.Runtime.ConstrainedExecution;
 
 namespace ProgrammingAssignment2
 {
-    // IMPORTANT: Only add code in the section
-    // indicated below. The code I've provided
-    // makes your solution work with the 
-    // automated grader on Coursera
-
     /// <summary>
-    /// Programming Assignment 2
+    /// Pythagoras Implementation using C#
     /// </summary>
     class Program
     {
@@ -31,16 +27,19 @@ namespace ProgrammingAssignment2
                 // extract point coordinates from string
                 GetInputValuesFromString(input);
 
-                // Add your code between this comment
-                // and the comment below. You can of
-                // course add more space between the
-                // comments as needed
+                // calculate distance between points 1 and 2
+                float distance = (float) Math.Sqrt((Math.Pow(point1X - point2X, 2) + Math.Pow(point1Y - point2Y, 2)));
 
+                double angle = (float)Math.Atan2(point2Y - point1Y, point2X - point1X);
 
+                angle *= (float)180/Math.PI;
 
-                // Don't add or modify any code below
-                // this comment
+                Console.WriteLine((float)Math.Round(distance , 6) + " " + (float)Math.Round(angle, 5));
+                
+                Console.WriteLine();
                 input = Console.ReadLine();
+                
+                
             }
         }
 
