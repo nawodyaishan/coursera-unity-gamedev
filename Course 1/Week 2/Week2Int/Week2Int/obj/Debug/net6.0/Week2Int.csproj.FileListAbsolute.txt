@@ -1,0 +1,15 @@
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/bin/Debug/net6.0/Week2Int
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/bin/Debug/net6.0/Week2Int.deps.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/bin/Debug/net6.0/Week2Int.runtimeconfig.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/bin/Debug/net6.0/Week2Int.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/bin/Debug/net6.0/Week2Int.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.csproj.AssemblyReference.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.AssemblyInfoInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.AssemblyInfo.cs
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.csproj.CoreCompileInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/refint/Week2Int.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/Week2Int.genruntimeconfig.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/Week2Int/Week2Int/obj/Debug/net6.0/ref/Week2Int.dll
