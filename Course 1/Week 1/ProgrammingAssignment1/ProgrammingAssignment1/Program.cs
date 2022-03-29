@@ -26,7 +26,7 @@ namespace ProgrammingAssignment1
                 // and the comment below. You can of
                 // course add more space between the
                 // comments as needed
-                Console.WriteLine("H \nHe \nLi \nBe \nB \nC \nN \nO \nF \nNe ");
+                Console.WriteLine("H\nHe\nLi\nBe\nB\nC\nN\nO\nF\nNe");
 
                 // Don't add or modify any code below
                 // this comment

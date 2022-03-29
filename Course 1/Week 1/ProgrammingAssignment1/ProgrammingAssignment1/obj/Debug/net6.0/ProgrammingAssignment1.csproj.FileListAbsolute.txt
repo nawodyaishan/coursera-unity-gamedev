@@ -1,0 +1,15 @@
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/bin/Debug/net6.0/ProgrammingAssignment1
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/bin/Debug/net6.0/ProgrammingAssignment1.deps.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/bin/Debug/net6.0/ProgrammingAssignment1.runtimeconfig.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/bin/Debug/net6.0/ProgrammingAssignment1.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/bin/Debug/net6.0/ProgrammingAssignment1.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.csproj.AssemblyReference.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.AssemblyInfoInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.AssemblyInfo.cs
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.csproj.CoreCompileInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/refint/ProgrammingAssignment1.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ProgrammingAssignment1.genruntimeconfig.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/ProgrammingAssignment1/ProgrammingAssignment1/obj/Debug/net6.0/ref/ProgrammingAssignment1.dll
