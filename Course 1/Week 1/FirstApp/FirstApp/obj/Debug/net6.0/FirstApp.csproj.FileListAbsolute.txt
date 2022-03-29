@@ -1,0 +1,15 @@
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/bin/Debug/net6.0/FirstApp
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/bin/Debug/net6.0/FirstApp.deps.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/bin/Debug/net6.0/FirstApp.runtimeconfig.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/bin/Debug/net6.0/FirstApp.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/bin/Debug/net6.0/FirstApp.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.csproj.AssemblyReference.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.AssemblyInfoInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.AssemblyInfo.cs
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.csproj.CoreCompileInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/refint/FirstApp.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/FirstApp.genruntimeconfig.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 1/FirstApp/FirstApp/obj/Debug/net6.0/ref/FirstApp.dll
