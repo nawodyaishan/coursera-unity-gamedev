@@ -1,0 +1,15 @@
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/bin/Release/net6.0/FloatingPointDataTypes
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/bin/Release/net6.0/FloatingPointDataTypes.deps.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/bin/Release/net6.0/FloatingPointDataTypes.runtimeconfig.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/bin/Release/net6.0/FloatingPointDataTypes.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/bin/Release/net6.0/FloatingPointDataTypes.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.csproj.AssemblyReference.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.AssemblyInfoInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.AssemblyInfo.cs
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.csproj.CoreCompileInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/refint/FloatingPointDataTypes.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/FloatingPointDataTypes.genruntimeconfig.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 1/Week 2/FloatingPointDataTypes/FloatingPointDataTypes/obj/Release/net6.0/ref/FloatingPointDataTypes.dll
