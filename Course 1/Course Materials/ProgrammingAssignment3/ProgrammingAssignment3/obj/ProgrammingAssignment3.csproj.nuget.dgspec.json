@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Tim/Documents/Coursera/C# Unity/1 Intro C# Unity/Week 3/Programming Assignment 3/solution/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj": {}
+  },
+  "projects": {
+    "/Users/Tim/Documents/Coursera/C# Unity/1 Intro C# Unity/Week 3/Programming Assignment 3/solution/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Tim/Documents/Coursera/C# Unity/1 Intro C# Unity/Week 3/Programming Assignment 3/solution/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj",
+        "projectName": "ProgrammingAssignment3",
+        "projectPath": "/Users/Tim/Documents/Coursera/C# Unity/1 Intro C# Unity/Week 3/Programming Assignment 3/solution/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj",
+        "packagesPath": "/Users/Tim/.nuget/packages/",
+        "outputPath": "/Users/Tim/Documents/Coursera/C# Unity/1 Intro C# Unity/Week 3/Programming Assignment 3/solution/ProgrammingAssignment3/ProgrammingAssignment3/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Tim/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
