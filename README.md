@@ -1,4 +1,5 @@
-# Repository for C# Programming for Unity Game Development Coursera Specializartion
+# Repository for (C# Programming for Unity Game Development Coursera Specializartion)[https://www.coursera.org/specializations/programming-unity-game-development#about]
+### Personal Progress, assignemnts, and learning materials are included.
 
 ## Course 1 - Introduction to C# Programming and Unity
 
@@ -73,4 +74,4 @@ Module 5: Complete final peer review
 
 This course is an independent work and is not sponsored by, authorized by, or affiliated with Unity Technologies or its affiliates
 
-### Personal Progress, assignemnts, and learning materials are included.
+
