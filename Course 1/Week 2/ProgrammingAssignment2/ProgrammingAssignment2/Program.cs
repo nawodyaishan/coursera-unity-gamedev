@@ -12,7 +12,7 @@ namespace ProgrammingAssignment2
         static float point1X;
         static float point1Y;
         static float point2X;
-        static float point2Y;
+        static float point2Y;n
 
         /// <summary>
         /// Programming Assignment 2
