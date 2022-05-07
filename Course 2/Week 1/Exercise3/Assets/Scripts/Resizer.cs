@@ -16,11 +16,11 @@ public class Resizer : MonoBehaviour
     int scaleFactorSignMultiplier = 1;
 
 
-	/// <summary>
-	/// Update is called once per frame
-	/// </summary>
-	void Update()
-	{
+    /// <summary>
+    /// Update is called once per frame
+    /// </summary>
+    void Update()
+    {
         // resize the game object
         Vector3 newScale = transform.localScale;
         newScale.x += scaleFactorSignMultiplier * ScaleFactorPerSecond * Time.deltaTime;
@@ -29,12 +29,12 @@ public class Resizer : MonoBehaviour
 
         // update timer and check if it's done
         elapsedResizeSeconds += Time.deltaTime;
-        if (elapsedResizeSeconds >= TotalResizeSeconds) {
-
+        if (elapsedResizeSeconds >= TotalResizeSeconds)
+        {
             // reset timer and start resizing the game object
             // in the opposite direction
             elapsedResizeSeconds = 0;
             scaleFactorSignMultiplier *= -1;
         }
-	}
+    }
 }
