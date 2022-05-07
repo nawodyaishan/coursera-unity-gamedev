@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// Resizes the game object
@@ -9,11 +7,11 @@ public class Resizer : MonoBehaviour
 {
     // timer support
     const float TotalResizeSeconds = 1;
-    float elapsedResizeSeconds = 0;
+    float _elapsedResizeSeconds;
 
     // resizing control
     const float ScaleFactorPerSecond = 1;
-    int scaleFactorSignMultiplier = 1;
+    int _scaleFactorSignMultiplier = 1;
 
 
     /// <summary>
@@ -24,18 +22,18 @@ public class Resizer : MonoBehaviour
         // resize the game object
         var transform1 = transform;
         Vector2 newScale = transform1.localScale;
-        newScale.x += scaleFactorSignMultiplier * ScaleFactorPerSecond * Time.deltaTime;
-        newScale.y += scaleFactorSignMultiplier * ScaleFactorPerSecond * Time.deltaTime;
+        newScale.x += _scaleFactorSignMultiplier * ScaleFactorPerSecond * Time.deltaTime;
+        newScale.y += _scaleFactorSignMultiplier * ScaleFactorPerSecond * Time.deltaTime;
         transform1.localScale = newScale;
 
         // update timer and check if it's done
-        elapsedResizeSeconds += Time.deltaTime;
-        if (elapsedResizeSeconds >= TotalResizeSeconds)
+        _elapsedResizeSeconds += Time.deltaTime;
+        if (_elapsedResizeSeconds >= TotalResizeSeconds)
         {
             // reset timer and start resizing the game object
             // in the opposite direction
-            elapsedResizeSeconds = 0;
-            scaleFactorSignMultiplier *= -1;
+            _elapsedResizeSeconds = 0;
+            _scaleFactorSignMultiplier *= -1;
         }
     }
 }
