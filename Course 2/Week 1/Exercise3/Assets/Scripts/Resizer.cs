@@ -6,18 +6,18 @@
 public class Resizer : MonoBehaviour
 {
     // timer support
-    const float TotalResizeSeconds = 1;
-    float _elapsedResizeSeconds;
+    private const float TotalResizeSeconds = 1;
+    private float _elapsedResizeSeconds;
 
     // resizing control
-    const float ScaleFactorPerSecond = 1;
-    int _scaleFactorSignMultiplier = 1;
+    private const float ScaleFactorPerSecond = 1;
+    private int _scaleFactorSignMultiplier = 1;
 
 
     /// <summary>
     /// Update is called once per frame
     /// </summary>
-    void Update()
+    private void Update()
     {
         // resize the game object
         var transform1 = transform;
