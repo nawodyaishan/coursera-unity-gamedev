@@ -22,10 +22,11 @@ public class Resizer : MonoBehaviour
     void Update()
     {
         // resize the game object
-        Vector3 newScale = transform.localScale;
+        var transform1 = transform;
+        Vector2 newScale = transform1.localScale;
         newScale.x += scaleFactorSignMultiplier * ScaleFactorPerSecond * Time.deltaTime;
         newScale.y += scaleFactorSignMultiplier * ScaleFactorPerSecond * Time.deltaTime;
-        transform.localScale = newScale;
+        transform1.localScale = newScale;
 
         // update timer and check if it's done
         elapsedResizeSeconds += Time.deltaTime;
