@@ -89,5 +89,6 @@ public class TeddyBearSpawner : MonoBehaviour
             teddyBear = Instantiate<GameObject>(prefabPurpleTeddyBear,
                 worldLocation, Quaternion.identity);
         }
+		teddyBear.tag = "C4TeddyBear";
 	}
 }

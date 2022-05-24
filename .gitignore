@@ -132,4 +132,5 @@ sysinfo.txt
 crashlytics-build.properties
 
 /.idea/
+.DS_Store
 .vscode/settings.json
