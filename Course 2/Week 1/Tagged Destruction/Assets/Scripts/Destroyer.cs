@@ -7,14 +7,13 @@ using UnityEngine;
 /// </summary>
 public class Destroyer : MonoBehaviour
 {
-    [SerializeField]
-    GameObject prefabExplosion;
+    [SerializeField] GameObject prefabExplosion;
 
     Timer destroyTimer;
 
     /// <summary>
-	/// Start is called before the first frame update
-	/// </summary>	
+    /// Start is called before the first frame update
+    /// </summary>	
     void Start()
     {
         // set up destroy timer
@@ -24,8 +23,8 @@ public class Destroyer : MonoBehaviour
     }
 
     /// <summary>
-	/// Update is called once per frame
-	/// </summary>	
+    /// Update is called once per frame
+    /// </summary>	
     void Update()
     {
         // destroy teddy bear as appropriate
