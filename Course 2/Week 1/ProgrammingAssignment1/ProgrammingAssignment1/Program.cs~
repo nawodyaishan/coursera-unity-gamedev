@@ -55,7 +55,7 @@ namespace ProgrammingAssignment1
                     Console.Write("\n");
 
                 }
-                else if (number % 2 == 1)
+                else if (number % 2 == 0)
                 {
                     Console.Write("o");
                     Console.Write(" ");
@@ -74,15 +74,8 @@ namespace ProgrammingAssignment1
                     }
                     Console.Write("\n");
                 }
-                else if (number == -1)
-                {
-                    Console.Write("o");
-                    Console.Write(" ");
-                    Console.Write("-1");
-                    Console.Write("\n");
-                }
-
-
+               
+               
 
                 // Don't add or modify any code below
                 // this comment
