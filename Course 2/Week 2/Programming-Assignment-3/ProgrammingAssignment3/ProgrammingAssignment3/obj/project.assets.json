@@ -1,0 +1,79 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0": []
+  },
+  "packageFolders": {
+    "/Users/nawodyaishan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 2/Week 2/Programming-Assignment-3/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj",
+      "projectName": "ProgrammingAssignment3",
+      "projectPath": "/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 2/Week 2/Programming-Assignment-3/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj",
+      "packagesPath": "/Users/nawodyaishan/.nuget/packages/",
+      "outputPath": "/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 2/Week 2/Programming-Assignment-3/ProgrammingAssignment3/ProgrammingAssignment3/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/nawodyaishan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\ConsoleCardsDocumentation.shfbproj" started="10/13/2017 7:52:25 AM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.6&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2017.5.15.0
+Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCards\ConsoleCards.csproj
+    Found project &#39;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCards\ConsoleCards.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCards\bin\Debug\ConsoleCards.dll&#39;
+
+References to include (excluding framework assemblies):
+    None
+
+Copying XML comments files
+    c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCards\bin\Debug\ConsoleCards.xml -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\ConsoleCards.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0639
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0085
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 10/13/2017 7:52:26 AM.
+Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2017.5.15.0)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 4 types, and 29 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2017.5.15.0)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80
+    Last step completed in 00:00:01.1342
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 10/13/2017 7:52:27 AM.
+Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2017.5.15.0)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2017.5.15.0)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2017.5.15.0)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.49
+    Last step completed in 00:00:00.6319
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Content\Welcome.aml&#39;
+    c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Content\Welcome.aml -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\ddueXml\0de17d95-878e-4234-abb1-53ed31b08f1b.xml
+    Parsing topic file &#39;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Content\VersionHistory\VersionHistory.aml&#39;
+    c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Content\VersionHistory\VersionHistory.aml -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\ddueXml\c4811503-0d0b-4e47-81d9-b990d2c30c0b.xml
+    Parsing topic file &#39;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Content\VersionHistory\v1.0.0.0.aml -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\ddueXml\288b2cda-a2d7-41ef-8049-223beafad60a.xml
+    Last step completed in 00:00:00.0690
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\icons\Help.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 10/13/2017 7:52:28 AM.
+Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2017.5.15.0)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.2537
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.4478
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0312
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 10/13/2017 7:52:29 AM.
+Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2017.5.15.0)
+  Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+  Processed 24 topic(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+  ResolveArtLinksComponent: Copying media files...
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+Done Building Project &quot;c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\BuildTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.36
+    Last step completed in 00:00:12.5361
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2017.5.15.0
+Copyright c 2006-2017, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website
+Processed 24 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\WebKI.xml
+Saving website table of contents to c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00.3002
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; c:\users\albert\documents\visual studio 2017\Projects\ConsoleCards\ConsoleCardsDocumentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:01.4406
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:00.2005
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 137 files for the website content
+    Last step completed in 00:00:00.6040
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0625
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 10/13/2017 7:52:44 AM.  Total time: 00:00:18.3274
+
+</buildStep>
+</shfbBuild>

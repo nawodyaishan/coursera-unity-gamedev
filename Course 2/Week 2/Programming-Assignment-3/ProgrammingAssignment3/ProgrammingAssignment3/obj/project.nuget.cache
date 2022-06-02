@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BkyrvmtdClcT8UAF8IWTOVI4ktei9D2IDj0lrv5V8XRpNC4oLgVM/9GEAtxMMm4xb4WwU9u/Q0CCFhzT5fy+Qw==",
+  "success": true,
+  "projectFilePath": "/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 2/Week 2/Programming-Assignment-3/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj",
+  "expectedPackageFiles": [
+    "/Users/nawodyaishan/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/nawodyaishan/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512",
+    "/Users/nawodyaishan/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
