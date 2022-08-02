@@ -23,6 +23,7 @@ namespace ProgrammingAssignment1
 
             // loop while there's more input
             string input = Console.ReadLine();
+1
                 while (input[0] != 'q')
             {
                 // extract test case number from string

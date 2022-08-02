@@ -9,9 +9,9 @@ namespace ProgrammingAssignment1
     {
         #region Fields
 
-        int amountLeft;
-        EggColor color;
-        HowCooked howCooked = HowCooked.NotCooked;
+        private int amountLeft;
+        private EggColor color;
+        private HowCooked howCooked = HowCooked.NotCooked;
 
         #endregion
 
@@ -24,7 +24,8 @@ namespace ProgrammingAssignment1
         /// <param name="color">egg color</param>
         public Egg(int size, EggColor color)
         {
-            
+            this.amountLeft = size;
+            this.color = color;
         }
 
         #endregion
@@ -39,7 +40,7 @@ namespace ProgrammingAssignment1
             get
             {
                 // replace the line of code below with correct code
-                return -1;
+                return this.amountLeft;
             }
         }
 
@@ -51,7 +52,7 @@ namespace ProgrammingAssignment1
             get
             {
                 // replace the line of code below with correct code
-                return EggColor.Blue;
+                return this.color;
             }
         }
 
@@ -63,7 +64,7 @@ namespace ProgrammingAssignment1
             get
             {
                 // replace the line of code below with correct code
-                return HowCooked.Scrambled;
+                return this.howCooked;
             }
         }
 
@@ -75,6 +76,12 @@ namespace ProgrammingAssignment1
             get
             {
                 // replace the line of code below with correct code
+                if (howCooked == HowCooked.Fried || howCooked == HowCooked.HardBoiled ||
+                    howCooked == HowCooked.Scrambled || howCooked == HowCooked.SoftBoiled)
+                {
+                    return true;
+                }
+
                 return false;
             }
         }
@@ -89,7 +96,10 @@ namespace ProgrammingAssignment1
         /// <param name="howToCook">how the egg should be cooked</param>
         public void Cook(HowCooked howToCook)
         {
-
+            if (IsCooked)
+            {
+                this.howCooked = howToCook;
+            }
         }
 
         /// <summary>
@@ -99,7 +109,12 @@ namespace ProgrammingAssignment1
         /// <param name="size">size of the bite to take</param>
         public void TakeBite(int size)
         {
-
+            if (size <= amountLeft)
+                amountLeft -= size;
+            else
+            {
+                amountLeft = 0;
+            }
         }
 
         /// <summary>
@@ -109,7 +124,7 @@ namespace ProgrammingAssignment1
         /// <param name="color">color to dye the egg</param>
         public void Dye(EggColor color)
         {
-
+            this.color = color;
         }
 
         #endregion
