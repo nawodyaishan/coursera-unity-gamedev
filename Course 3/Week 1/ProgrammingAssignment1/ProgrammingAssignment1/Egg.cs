@@ -76,13 +76,14 @@ namespace ProgrammingAssignment1
             get
             {
                 // replace the line of code below with correct code
-                if (howCooked == HowCooked.Fried || howCooked == HowCooked.HardBoiled ||
-                    howCooked == HowCooked.Scrambled || howCooked == HowCooked.SoftBoiled)
+                if (howCooked == HowCooked.NotCooked)
+                {
+                    return false;
+                }
+                else
                 {
                     return true;
                 }
-
-                return false;
             }
         }
 
@@ -96,7 +97,7 @@ namespace ProgrammingAssignment1
         /// <param name="howToCook">how the egg should be cooked</param>
         public void Cook(HowCooked howToCook)
         {
-            if (IsCooked)
+            if (!IsCooked)
             {
                 this.howCooked = howToCook;
             }
@@ -124,7 +125,10 @@ namespace ProgrammingAssignment1
         /// <param name="color">color to dye the egg</param>
         public void Dye(EggColor color)
         {
-            this.color = color;
+            if (this.color == EggColor.White && color == EggColor.Blue)
+            {
+                this.color = color;
+            }
         }
 
         #endregion
