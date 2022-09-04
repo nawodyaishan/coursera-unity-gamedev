@@ -1,0 +1,16 @@
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/bin/Debug/net5.0/ProgrammingAssignment2
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/bin/Debug/net5.0/ProgrammingAssignment2.deps.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/bin/Debug/net5.0/ProgrammingAssignment2.runtimeconfig.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/bin/Debug/net5.0/ProgrammingAssignment2.runtimeconfig.dev.json
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/bin/Debug/net5.0/ProgrammingAssignment2.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/bin/Debug/net5.0/ProgrammingAssignment2.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.csproj.AssemblyReference.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.AssemblyInfoInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.AssemblyInfo.cs
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.csproj.CoreCompileInputs.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/refint/ProgrammingAssignment2.dll
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.pdb
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ProgrammingAssignment2.genruntimeconfig.cache
+/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 2/ProgrammingAssignment2/obj/Debug/net5.0/ref/ProgrammingAssignment2.dll
