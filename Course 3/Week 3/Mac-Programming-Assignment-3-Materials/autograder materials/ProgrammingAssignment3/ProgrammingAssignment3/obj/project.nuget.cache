@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2QUn4b3abUwhZHyUYE8ng7igtL1JDChwX28VXOQ+uz6OMsFSbjSK8wjcl4VHLWEzFkdo4gvI9IXTqh9axRnEOw==",
+  "dgSpecHash": "eQqBg2aWcQAZ4H5kizFJLFQ3B3dl6s8JBx+kmeDOMZLRzAtSApjygNy6kf1Qr+au5AUYECQZNXw1F8I/aWmBWw==",
   "success": true,
-  "projectFilePath": "/Users/Tim/Documents/Coursera/C# Unity/3 C# Class Dev/Week 3/Programming Assignment 3/autograder materials/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/nawodyaishan/Documents/GitHub/coursera-unity-gamedev/Course 3/Week 3/Mac-Programming-Assignment-3-Materials/autograder materials/ProgrammingAssignment3/ProgrammingAssignment3/ProgrammingAssignment3.csproj",
+  "expectedPackageFiles": [
+    "/Users/nawodyaishan/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/nawodyaishan/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512",
+    "/Users/nawodyaishan/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

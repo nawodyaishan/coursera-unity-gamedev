@@ -53,9 +53,9 @@ public class Mover : MonoBehaviour
         transform.position = new Vector3(-2.5f, 0, 0);
 
         // add and run the timer
-        directionTimer = gameObject.AddComponent<Timer>();
-        DirectionTimer.Duration = TimerDuration;
-        DirectionTimer.Run();
+        var timer = gameObject.AddComponent<Timer>();
+        timer.Duration = TimerDuration;
+        timer.Run();
     }
 
     /// <summary>
@@ -64,17 +64,16 @@ public class Mover : MonoBehaviour
     public void Update()
     {
         // change direction as appropriate
-        // var timer = GetComponent<Timer>();
+        var timer = GetComponent<Timer>();
 
-        if (DirectionTimer.Finished)
+        if (timer.Finished)
         {
-            DirectionTimer.Stop();
             directionMultiplier *= (-1);
-            DirectionTimer.Run();
+            timer.Run();
         }
 
         // move game object
-        Position += new Vector3(directionMultiplier * MoveAmountPerSecond * Time.deltaTime, 0f, 0f);
+        transform.Translate(directionMultiplier * MoveAmountPerSecond * Time.deltaTime, 0f, 0f);
     }
 
     #endregion

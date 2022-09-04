@@ -53,19 +53,28 @@ public class Mover : MonoBehaviour
         transform.position = new Vector3(-2.5f, 0, 0);
 
         // add and run the timer
-
+        directionTimer = gameObject.AddComponent<Timer>();
+        DirectionTimer.Duration = TimerDuration;
+        DirectionTimer.Run();
     }
 
     /// <summary>
-	/// Update is called once per frame
-	/// </summary>	
+    /// Update is called once per frame
+    /// </summary>	
     public void Update()
     {
         // change direction as appropriate
+        // var timer = GetComponent<Timer>();
 
+        if (DirectionTimer.Finished)
+        {
+            DirectionTimer.Stop();
+            directionMultiplier *= (-1);
+            DirectionTimer.Run();
+        }
 
         // move game object
-
+        Position += new Vector3(directionMultiplier * MoveAmountPerSecond * Time.deltaTime, 0f, 0f);
     }
 
     #endregion
